@@ -29,3 +29,5 @@ The roadmap first imagined will be:
              Public Score: 84,728.07329, therefore, not an improvement. 
              Notes: maybe a case of overfitting, did work on model but not in the df_test case
              Next: try it only on brand. and after that, making it only categorical for n classifications
+Public score with only the 'brand_avg' variable was 83,728.22144. It was still better not to use this variable. Next: try only to categorise it. Need to EDA it
+
