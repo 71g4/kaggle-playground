@@ -1,0 +1,31 @@
+Kaggle competition - Playground series, S04E09, Used Car Prices
+
+This challange gives a database of variables of cars with prices. We should construct a ML model to predict the used car prices
+
+Initial Challenges: categorical variables with lots of unique values (maker, model, engine...)
+The roadmap first imagined will be:
+1- A dirty and quick model without the categorical variables with more than 10 unique variables. RF model
+  this first step was made in the v1 File. 
+2- EDA of the categorical variables and decide how to process them. RF model to analyse what is the best approach (at a first glance)
+  The variables to be analysed will be:
+    a- Brand
+    b- Model
+    c- Engine
+    d- Transmission
+    e- ext_col (external color of the car)
+    f- int_col (internal color of the car)
+  Is is expected that some brands will have a higher value, as well as the model, engine and transmission.
+
+  2.1. - Quick and dirty: make the average price of each variable become a new column eg: for "Brand", brand_avg_value, as the average price of a given brand
+3- Run with Optuna to check the best model to be used
+
+                                                                                             
+*Log of the Challenge classification*
+21/sep/2024: Model RMSE: 76,432.4042817347, 
+             Public Score: 81,290.89732 
+             Ranking: 2152/2245, 
+             Model: v1quickdirtyRF. Notes: first model, just expected it to run
+22/sep/2024: Model RMSE: 73,983.4309065130, 
+             Public Score: 84,728.07329, therefore, not an improvement. 
+             Notes: maybe a case of overfitting, did work on model but not in the df_test case
+             Next: try it only on brand. and after that, making it only categorical for n classifications
