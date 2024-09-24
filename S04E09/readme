@@ -35,4 +35,4 @@ Just realized that using std deviation and variance as variables might help get 
              After changing to LGBM model, it improved dramatically and ran even faster 
              Public Score: 73,056.27846
              Ranking: 1423/2331
-            
+24/sep/2024: Try to run the brand column as an ordinal encoded variable  
