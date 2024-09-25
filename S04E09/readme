@@ -38,3 +38,4 @@ Just realized that using std deviation and variance as variables might help get 
 24/sep/2024: Try to run the brand column as an ordinal encoded variable  
 25/sep/2024: run optuna to hyperparameter optimze. check rough results. leave color and engine espec later
              trying to use ext_col and int_col. try to maximize the breakdown on these columns
+             RMSE fell in half when dropping rows with outliers (outliers = df['price'] > 50000
