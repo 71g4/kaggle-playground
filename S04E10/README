@@ -1,0 +1,13 @@
+S04E10 - Loan Approval Prediction
+
+This is different from the last playground series com kaggle.
+
+This time, we have to predict wheter a customer was granted the loan it asked for
+So, it is binary. y is boolean. so the graphs for this EDA is quite different.
+
+1- Hard EDA and scroll between notebooks to extract what are the commom practices in the most voted kaggle notebooks
+2- Modelling (1/3): What are the best variables to make the model? EDA and test with simple LGBM Classifier
+3- Modelling (2/3): Define what models are being used. Mix models?
+4- Modelling (3/3): Hypertune the model with Optuna. Are there any other options?
+
+Main focus is a solid EDA and get an understanding of what should be mostly considered. Are there any "more relevant" variables than others?
