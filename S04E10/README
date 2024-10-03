@@ -11,3 +11,4 @@ So, it is binary. y is boolean. so the graphs for this EDA is quite different.
 4- Modelling (3/3): Hypertune the model with Optuna. Are there any other options?
 
 Main focus is a solid EDA and get an understanding of what should be mostly considered. Are there any "more relevant" variables than others?
+vOptuna performed worst than LGBM without hyperparameter optimization.. wdf??
